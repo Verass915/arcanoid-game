@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Arcanoid</title>
+	<script src="script_menu.js"></script>
+</head>
+<body>
+	<div id="head">Arcanoid</div>
+    <div id="newGame" onclick="runGame()" onmouseover="this.style.backgroundColor = 'purple'" onmouseout="this.style.backgroundColor = 'pur'">Играть</div>
+	<div id="btn" onmouseover="this.style.backgroundColor = 'purple'" onmouseout="this.style.backgroundColor = 'pur'" onclick="showdev()">Как играть?</div>
+	<div id="how"><b>Cуть игры :</b> разбить все блоки мячиком, при этом мячик нельзя ронять<br><br>
+	<b>Управление </b>: Чтобы преместить платформу используйте стрелки управления "вправо" и "влево" 
+	</div>
+    <div id="dev">Arcanoid: made by Vera</div>
+    <div id="backBtn" onmouseover="this.style.backgroundColor = 'purple'" onmouseout="this.style.backgroundColor = 'pur'" onclick="goBack()">Back</div>
+    <div id="main">
+	<div id="score"></div>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+    <canvas id="mycanvas" width="640" height="360"></canvas>
+    </div>
+    <script src="script.js"></script>
+
+	<script src="script.js"></script>
+</body>
+</html>
+
